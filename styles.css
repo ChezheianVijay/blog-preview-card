@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: var(--Yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "figtree", sans-serif;
+}
+
+article {
+  background-color: var(--White);
+  width: 340px;
+  height: 100%;
+  margin: 100px 250px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid var(--Gray-950);
+  box-shadow: rgba(0, 0, 0, 0.804) 8px 8px;
+}
+
+.banner {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h3 {
+  width: 85px;
+  height: 30px;
+  background-color: var(--Yellow);
+  margin-top: 15px;
+  padding: 6px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+h1 {
+  margin-top: 9px;
+  font-size: 22px;
+}
+
+h1:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+
+p {
+  margin-top: 6px;
+  font-size: 15px;
+  color: var(--Gray-500);
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  padding: 3px;
+}
+
+figcaption {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 5px;
+}
